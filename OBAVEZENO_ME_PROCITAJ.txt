@@ -1,0 +1,5 @@
+U ovom folderu je smjesten projekat koji je napravljen uz pomoc ChatGPT-a. 
+Namjena projekta je da se moze iz Reacta izvrisitihttp interakcija sa backend-om
+napravljenim u Spring Boot-u u Eclipse-u, dok je DB PostgreSQL instalirana na
+lokalnoj masini.
+Krajnji cilj je da se sav kod deploy-a na Render.
