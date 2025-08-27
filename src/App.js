@@ -7,6 +7,7 @@ function App() {
   const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8080";
 
   const fetchPersons = async () => {
+    console.log("Fetching persons...");
     const res = await fetch(`${API_URL}/api/persons`);
     const data = await res.json();
     setPersons(data);
