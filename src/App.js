@@ -8,7 +8,7 @@ function App() {
 
   const fetchPersons = async () => {
     // bezvezna izmjena napravljena direktno u GitHub repository-u da vidim samo da li je VS Code "vidi"
-    console.log("Fetching persons...");
+    console.log("Provjeravam da li ce ovo biti deploy-ano automatski.");
     const res = await fetch(`${API_URL}/api/persons`);
     const data = await res.json();
     setPersons(data);
